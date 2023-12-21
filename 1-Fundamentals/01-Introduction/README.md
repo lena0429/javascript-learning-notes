@@ -27,9 +27,13 @@
 ## 3、JS简史
 
 - JavaScript是由网景公司发明，起初命名为**LiveScript**，后来由于SUN公司的介入更名为了**JavaScript**。
+
 - 1996年微软公司在其最新的IE3浏览器中引入了自己对JavaScript的实现**JScript**。
+
 - 于是在市面上存在两个版本的JavaScript，一个网景公司的JavaScript和微软的JScript。
+
 - 为了确保不同的浏览器上运行的JavaScript标准一致，所以几个公司共同定制了JS的标准名命名为**ECMAScript**。
+
 - Read more: 
 
 JavaScript was originally created to make web pages interactive and dynamic. It was developed by Brendan Eich in 1995 while he was working at **Netscape** Communications Corporation. Initially named Mocha, then later renamed to **LiveScript**, and finally to JavaScript, it was designed as a scripting language that could interact with HTML elements, allowing developers to manipulate web page content, validate forms, create animations, and handle user interactions without the need for full page reloads. The key purposes of JavaScript at its inception were:
