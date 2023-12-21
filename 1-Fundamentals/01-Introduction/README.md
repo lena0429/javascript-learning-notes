@@ -34,11 +34,9 @@
 
 JavaScript was originally created to make web pages interactive and dynamic. It was developed by Brendan Eich in 1995 while he was working at **Netscape** Communications Corporation. Initially named Mocha, then later renamed to **LiveScript**, and finally to JavaScript, it was designed as a scripting language that could interact with HTML elements, allowing developers to manipulate web page content, validate forms, create animations, and handle user interactions without the need for full page reloads. The key purposes of JavaScript at its inception were:
 
-    1. **Enhance Web Page Interactivity:** JavaScript enabled dynamic content on web pages, such as updating content, controlling multimedia, animating images, and much more, which was not feasible with just HTML and CSS.
-
-    2. **Client-Side Scripting:** It allowed scripts to run in the user's browser, reducing the server load and enabling faster and more responsive web applications.
-
-    3. **Form Validation**: Before JavaScript, form data validation was generally done on the server side. JavaScript enabled client-side form validation, improving user experience and reducing server load.
+1. **Enhance Web Page Interactivity:** JavaScript enabled dynamic content on web pages, such as updating content, controlling multimedia, animating images, and much more, which was not feasible with just HTML and CSS.
+2. **Client-Side Scripting:** It allowed scripts to run in the user's browser, reducing the server load and enabling faster and more responsive web applications.
+3. **Form Validation**: Before JavaScript, form data validation was generally done on the server side. JavaScript enabled client-side form validation, improving user experience and reducing server load.
 
 **时间表**
 
@@ -79,9 +77,9 @@ JavaScript was originally created to make web pages interactive and dynamic. It 
 - 但是实际上JavaScript的含义却要更大一些。
 
 - 一个完整的JavaScript实现应该由以下三个部分构成：
-  1. ECMAScript
-  2. DOM
-  3. BOM
+  - ECMAScript
+  - DOM
+  - BOM
 
 
 ## 6、JS的特点
