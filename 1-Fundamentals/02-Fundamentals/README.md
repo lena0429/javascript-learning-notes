@@ -25,7 +25,7 @@
   - 标识符一般都采用**camelCase**命名法：首字母小写，每个单词的开头字母大写，其余字母小写
 
 **关键字 Keyword**
-|         |          |         |          |            |
+| Keyword | Keyword  | Keyword | Keyword  | Keyword    |
 |:------- |:-------- |:--------|:-------- |:---------- |
 |  if     | else     | do      | while    |  for       |
 | break   |	continue | try     | catch    | finally    |
@@ -35,4 +35,10 @@
 | default |	debugger |	delete | this     |	           |
 
 
-**保留字**
+**保留字 Reserved Words**
+| Reserved    | Reserved    | Reserved    | Reserved    |
+|-------------|-------------|-------------|-------------|
+| class       | enum        | extends     | super       |
+| const       | export      | import      | implements  |
+| let         | private     | public      | yield       |
+| interface   | package     | protected   | static      |
