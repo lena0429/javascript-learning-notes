@@ -114,5 +114,11 @@ JavaScript was originally created to make web pages interactive and dynamic. It 
 ## 7. JS注释
 
 1. 多行注释
+```
+/*
+   多行注释
+   注释中的内容不会被执行，但是可以在源代码中查看
+*/
 
+```
 
