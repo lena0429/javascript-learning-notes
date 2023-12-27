@@ -26,7 +26,7 @@
 
 **关键字 Keyword**
 |Keywords                                              |
-|---------|----------|---------|----------|------------|
+|------------------------------------------------------|
 | if      | else     | do      | while    | for        |
 | break   | continue | try     | catch    | finally    |
 | throw   | true     | false   | function | return     |
