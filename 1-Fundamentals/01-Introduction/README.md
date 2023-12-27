@@ -96,18 +96,24 @@ JavaScript was originally created to make web pages interactive and dynamic. It 
 ## 7. JS编写位置
 1. 将js代码编写到标签的onclick属性中，当我们点击按钮时，js代码才会执行。
 
-`<button onclick="alert(\"Button is clicked!\")"></button>`
+```
+<button onclick="alert(\"Button is clicked!\")"></button>
 
+```
 
 2. 将js代码写在<href>属性中，当点击超链接时，会执行js代码。
 
 **但属于结构与行为耦合，不方便维护，不推荐使用!** 
+```
+<a href="alert(\"I am a link.\")">Try to click me</a>
 
-`<a href="alert(\"I am a link.\")">Try to click me</a>`
+```
 
 3. 将js代码编写到外部js文件中，通过script标签引入。
+```
+<script src="/js/script.js" type="text/javascript"></script>
 
-`<script src="/js/script.js" type="text/javascript"></script>`
+```
 
 **<script>标签一旦用于引入外部文件，则·不能进行代码编写，浏览器会自动忽略**
 
@@ -116,9 +122,23 @@ JavaScript was originally created to make web pages interactive and dynamic. It 
 1. 多行注释
 ```
 /*
-   多行注释
-   注释中的内容不会被执行，但是可以在源代码中查看
-*/
+ *  多行注释
+ *  中间星号*为optional
+ *  注释中的内容不会被执行，但是可以在源代码中查看
+ *  要养成良好的编程comments的习惯，也可以通过comment来对代码进行简单调试
+ */
 
 ```
 
+2. 单行注释
+```
+// 单行注释
+
+```
+
+## 8. Notes
+- JS中严格区分大小写
+- JS中每一条语句以分号 **;** 结尾。如果不写分号，浏览器会自动添加，但是会消耗一些系统资源，而且有些时候，浏览器会加错分号，所以在开发中分号必须写。
+- JS中会忽略多个空格和换行，所以我们可以利用空格和换行对代码进行格式化。
+
+## 9. 字面量与变量
