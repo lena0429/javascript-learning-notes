@@ -93,3 +93,25 @@ JavaScript was originally created to make web pages interactive and dynamic. It 
 - 动态语言
 - 基于原型的**面向对象**
 
+## 7. JS编写位置
+1. 将js代码编写到标签的onclick属性中，当我们点击按钮时，js代码才会执行。
+
+`<button onclick="alert(\"Button is clicked!\")"></button>`
+
+
+2. 将js代码写在<href>属性中，当点击超链接时，会执行js代码。
+**但属于结构与行为耦合，不方便维护，不推荐使用!** 
+
+`<a href="alert(\"What's up, man?\")">Try to click me</a>`
+
+3. 将js代码编写到外部js文件中，通过script标签引入。
+
+`<script src="/js/script.js" type="text/javascript"></script>`
+
+**<script>标签一旦用于引入外部文件，则·不能进行代码编写，浏览器会自动忽略**
+
+## 7. JS注释
+
+1. 多行注释
+
+
