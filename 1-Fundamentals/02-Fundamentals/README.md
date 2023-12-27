@@ -25,6 +25,7 @@
   - 标识符一般都采用**camelCase**命名法：首字母小写，每个单词的开头字母大写，其余字母小写
 
 **关键字 Keyword**
+|---------|---------|----------|----------|------------|
 |  if     | else     | do      | while    |  for       |
 | break   |	continue | try     | catch    | finally    |
 | throw   | true     | false   | function | return     |
