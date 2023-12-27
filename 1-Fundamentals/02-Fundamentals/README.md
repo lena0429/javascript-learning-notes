@@ -25,14 +25,14 @@
   - 标识符一般都采用**camelCase**命名法：首字母小写，每个单词的开头字母大写，其余字母小写
 
 **关键字 Keyword**
-|Keywords                                              |
-|------------------------------------------------------|
-| if      | else     | do      | while    | for        |
-| break   | continue | try     | catch    | finally    |
+|         |          |         |          |            |
+|:------- |:-------- |:--------|:-------- |:---------- |
+|  if     | else     | do      | while    |  for       |
+| break   |	continue | try     | catch    | finally    |
 | throw   | true     | false   | function | return     |
 | switch  | case     | null    | typeof   | instanceof |
-| new     | var      | void    | in       | with       |
-| default | debugger | delete  | this     |            |
+|  new    |	var      | void    | in       | with       |
+| default |	debugger |	delete | this     |	           |
 
 
 **保留字**
