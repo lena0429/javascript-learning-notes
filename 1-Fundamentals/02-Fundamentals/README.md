@@ -42,3 +42,6 @@
 | const       | export      | import      | implements  |
 | let         | private     | public      | yield       |
 | interface   | package     | protected   | static      |
+
+3. Notes 
+- JS底层保存标识符时实际上是采用的Unicode编码，所以理论上讲，所有的utf-8中含有的内容都可以作为标识符。
