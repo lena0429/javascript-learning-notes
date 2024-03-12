@@ -124,7 +124,7 @@
                     // 此时Promise实例化对象的状态为pending的状态
                     this.callbackFn.push({
                         // 添加两个回调函数
-                        onfulfilled: _common.bind(this, onfulfilled);
+                        onfulfilled: _common.bind(this, onfulfilled),
                         onrejected: _common.bind(this, onrejected)
                     })
                 }
