@@ -129,8 +129,21 @@
                     })
                 }
             })
+        },
+        catch(onrejected) {
+            return this.then(undefined, onrejected);
         }
     })
+
+    // 给Promise构造函数添加一些方法
+    Promise.resolve = function (value) {
+        // 根据传递的实际参数到底是不是Promise的实例对象来判断
+        if (value instanceof Promise) {
+            return value
+        } else {
+            return new Promise(resolve => resolve(value))
+        }
+    }
     window.Promise = Promise;
 }(window));
 
