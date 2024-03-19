@@ -46,9 +46,9 @@ const { resolve } = require("mathjs");
         // 在class的原型身上添加方法
         then(onfulfilled, onrejected) {
             // No.1 - 判断用户是否添加了成功回调和失败回调，如果没有添加则需要设置默认值(value)。
-            if (onfulfilled instanceof Function) onfulfilled = value => value;
+            if (!(onfulfilled instanceof Function)) onfulfilled = value => value;
             // 注意: 如果用户没有添加失败回调，则抛出异常。
-            if (onrejected instanceof Function) onrejected = reason => {throw reason};
+            if (!(onrejected instanceof Function)) onrejected = reason => {throw reason};
 
             // No.2 - 当then方法的返回值为新的Promise对象
             return new Promise(() => {
